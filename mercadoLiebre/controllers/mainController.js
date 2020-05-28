@@ -5,7 +5,7 @@ const path=require('path');
 
 function readHTML(fileName){
 
-    let archivoHTML = fs.readFileSync(path.join(__dirname,'/../views/' +fileName+ '.html'),'utf-8');
+    let archivoHTML = fs.readFileSync(path.join(__dirname,'/../views/' + fileName + '.html'),'utf-8');
     return archivoHTML;
 }
 //../views/${fileName}.html`*)*/
